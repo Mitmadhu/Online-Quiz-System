@@ -22,6 +22,5 @@ if you found any difficulty during quiz you can contact us using the feedback fo
 
 
 Thank You:-)
-
 Madhu Verma 
 Enjoy Quiz
