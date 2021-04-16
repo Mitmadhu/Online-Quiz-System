@@ -23,5 +23,5 @@ if you found any difficulty during quiz you can contact us using the feedback fo
 
 Thank You:-)
 
-Madhu Verma (2020SW09)
+Madhu Verma 
 Enjoy Quiz
