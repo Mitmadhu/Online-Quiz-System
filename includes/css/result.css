@@ -1,0 +1,40 @@
+/*-------------------------- reasult page ------------------------*/
+
+#result-container{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: #cacaca4d;
+    border-color: #cacaca91;
+    margin-top: 15vh;
+    box-shadow: -14px -14px 13px -5px rgba(16,14,14,0.75);
+    -webkit-box-shadow: -14px -14px 13px -5px rgba(16,14,14,0.75);
+    -moz-box-shadow: -14px -14px 13px -5px rgba(16,14,14,0.75);
+}
+
+#result-container .header{
+    color: green;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+.make-flex{
+	display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  justify-content: space-around;
+}
+
+.make-flex .report{
+	background-color: #f4f4f4; 
+    width: 160px;
+    margin: 20px; 
+    text-align: center; 
+    padding: 5px;
+}
+

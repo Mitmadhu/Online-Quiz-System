@@ -1,0 +1,69 @@
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 750px;
+    padding-right: 10px; 
+    padding-left: 0px; 
+    
+}
+.btn{
+    
+    margin: 0px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 2.5;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../../includes/images/image6.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Height */
+  height: 70%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+}
+

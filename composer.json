@@ -1,0 +1,20 @@
+{
+    "name": "madhu/online-quiz-system",
+    "description": "online quiz system",
+    "type": "project",
+
+    "autoload":{
+    	"psr-4":{
+    		"Classes\\":"classes",
+            "Classes\\Model\\": "classes/model"
+    	},
+
+    	"files": [
+    		"functions/helper.php"	
+    	]
+    },
+
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}

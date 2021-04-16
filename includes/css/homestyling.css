@@ -1,0 +1,152 @@
+/*s/*css for home page*/
+body{
+    font-family: Arvo, serif;
+    background: url("../images/image.png") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    width: 1000px;
+/*    border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+	
+.text{
+    float: left; 
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #C8D03E;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    border: 1px solid #DCD5E1;
+}
+
+.clear{
+    clear: both;   
+}
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 2.5px;
+    padding: 10px;
+    margin-top: 75px;
+}
+.signup{
+    margin-top: 20px;   
+}
+
+.green{
+    background-color: rgba(114,190,35,0.8);   
+}
+
+.green:hover{
+    background-color: rgb(114,190,35);   
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+	padding-bottom: 10px;
+	height: 40px;
+    background-color: #62aacf;
+  border-color: #499cc7;
+  margin-top: 10px;
+   left: 0px;
+   
+}
+
+#menu{
+	align: center;
+	width: 85%;
+    height: 60px;
+	background-color: #62aacf;
+  border-color: #499cc7;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#89bfdb), to(#62aacf));
+  background-image: -webkit-linear-gradient(top, #89bfdb, 0%, #62aacf, 100%);
+  background-image: -moz-linear-gradient(top, #89bfdb 0%, #62aacf 100%);
+  background-image: linear-gradient(to bottom, #89bfdb 0%, #62aacf 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff89bfdb', endColorstr='#ff62aacf', GradientType=0);
+    padding: 7px 7px;
+	margin: 0 auto;
+}
+ul{
+    list-style: none;   
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 50px;
+    height: 30px;
+    border-right: 1px solid #499cc7;
+	color: #5d12e7;
+  <!---border-left: 1px solid #499cc7--->
+}
+
+#menu ul li:last-child{
+    border-right: none;
+color: #5d12e7;
+  
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #e6e6e6;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e6e6e6;
+  background-color: transparent;
+}
+
+
+input[type=text],
+	input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 2px solid #ccc;
+		box-sizing: border-box;
+	}
+	/* set a style for all buttons*/
+	button {
+		background-color: rgba(114,190,35,0.8);
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		cursor: pointer;
+		width: 100%;
+	}
+	/*set styles for the cancel button*/
+	
+
